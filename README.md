@@ -62,8 +62,12 @@ On Windows: `%APPDATA%/Claude/claude_desktop_config.json`
 ```json
 {
   "mcpServers": {
-    "mcp-server-ghibli": {
-      "command": "/path/to/mcp-server-ghibli/build/index.js"
+    "mcp-server-ghibli-video": {
+      "command": "npx",
+      "args": ["-y", "@openmcprouter/mcp-server-ghibli-video"],
+      "env": {
+        "Ghibli_API_URL": "https://www.gpt4oimg.com"
+      }
     }
   }
 }

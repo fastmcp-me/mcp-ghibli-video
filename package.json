@@ -1,9 +1,10 @@
 {
-  "name": "mcp-server-ghibli",
+  "name": "@openmcprouter/mcp-server-ghibli-video",
   "version": "0.1.0",
-  "description": "ghibli mcp server",
-  "private": true,
+  "description": "ghibli mcp video server",
+  "private": false,
   "type": "module",
+  "homepage":"https://github.com/MichaelYangjson/mcp-ghibli-video",
   "bin": {
     "mcp-server-ghibli": "./build/index.js"
   },
