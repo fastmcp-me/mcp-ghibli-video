@@ -120,9 +120,6 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
 server.setRequestHandler(CallToolRequestSchema, async (request) => {
   switch (request.params.name) {
 
-
-
-
     case "image_to_video": {
       const image = String(request.params.arguments?.image);
       const prompt = String(request.params.arguments?.prompt || "in the style of ghibli");
