@@ -1,5 +1,7 @@
 # mcp-server-ghibli MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@MichaelYangjson/mcp-ghibli-video)](https://smithery.ai/server/@MichaelYangjson/mcp-ghibli-video)
+
 A TypeScript-based MCP server that provides AI image and video generation capabilities through a simple interface.
 
 > **Note**: This server requires an API key from [GPT4O Image Generator](https://www.gpt4oimg.com/). Please visit the website to obtain your API key before using this service.
@@ -71,6 +73,14 @@ On Windows: `%APPDATA%/Claude/claude_desktop_config.json`
     }
   }
 }
+```
+
+### Installing via Smithery
+
+To install mcp-server-ghibli MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@MichaelYangjson/mcp-ghibli-video):
+
+```bash
+npx -y @smithery/cli install @MichaelYangjson/mcp-ghibli-video --client claude
 ```
 
 ### Debugging
